@@ -3,7 +3,7 @@ import Link from "next/link";
 import {
   RiYoutubeLine,
   RiWhatsappLine,
-  RiFacebookLine,
+  RiLinkedinBoxLine,
   RiDribbbleLine,
   RiGithubLine,
   RiBehanceFill,
@@ -21,9 +21,10 @@ export const socialData = [
     Icon: RiWhatsappLine,
   },
   {
-    name: "Facebook",
-    link: "https://facebook.com",
-    Icon: RiFacebookLine,
+    name: "Linkedin",
+    link: "https://www.linkedin.com/in/jurijsrck",
+    Icon: RiLinkedinBoxLine
+,
   },
   {
     name: "Dribbble",
@@ -32,7 +33,7 @@ export const socialData = [
   },
   {
     name: "Behance",
-    link: "https://behance.com",
+    link: "https://www.behance.net/bitkoins",
     Icon: RiBehanceFill,
   },
   {
