@@ -27,7 +27,7 @@ const serviceData = [
   {
     Icon: RxDesktop,
     title: "Development",
-    description: "I worked with React, Bootstrap and Node.js to create dynamic & interactive web applications.",
+    description: "Tailored solutions to meet specific business needs, including unique features and functionalities",
   },
   {
     Icon: RxReader,
