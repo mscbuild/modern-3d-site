@@ -17,7 +17,7 @@ const serviceData = [
   {
     Icon: RxCrop,
     title: "Branding",
-    description: "Very creative approach to branding, respect for wishes.",
+    description: "Developing a unique brand identity and brand strategy.",
   },
   {
     Icon: RxPencil2,
@@ -31,8 +31,13 @@ const serviceData = [
   },
   {
     Icon: RxReader,
-    title: "Security Expert",
-    description: "Monitor your website, prevent any unusual activities happing on website & create a system that can protect your website.",
+    title: "Website Security",
+    description: "Implementing security measures to protect websites from cyber threats and data breaches.",
+  },
+  {
+    Icon: RxReader,
+    title: "Website Maintenance",
+    description: "Providing ongoing support, updates, and bug fixes to ensure websites run smoothly.",
   },
   {
     Icon: RxRocket,
