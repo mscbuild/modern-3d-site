@@ -95,6 +95,24 @@ const Contact = () => {
               required
               aria-required
             />
+             {/* GDPR Checkbox */}
+            <div className="flex items-start gap-3">
+              <div className="mt-1">
+                <input
+                  type="checkbox"
+                  id="gdpr"
+                  checked={isGDPRChecked}
+                  onChange={toggleGDPR}
+                  disabled={isLoading}
+                  className="w-5 h-5 rounded border-white/50 bg-white/10 accent-accent focus:ring-accent/50 cursor-pointer"
+                  required
+                />
+              </div>
+              <label htmlFor="gdpr" className="text-sm text-gray-300 leading-relaxed">
+                I agree to the processing of my personal data for the purpose of responding to my inquiry, in accordance with GDPR regulations. Your information will only be used to respond to your message and will not be shared with third parties.
+              </label>
+            </div>
+
             <button
               type="submit"
               className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group"
