@@ -35,11 +35,6 @@ const serviceData = [
     description: "Implementing security measures to protect websites from cyber threats and data breaches.",
   },
   {
-    Icon: RxReader,
-    title: "Website Maintenance",
-    description: "Providing ongoing support, updates, and bug fixes to ensure websites run smoothly.",
-  },
-  {
     Icon: RxRocket,
     title: "SEO",
     description: "I can research key-word & do on-page SEO on your website that can create healthy traffic to your website.",
