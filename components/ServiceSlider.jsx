@@ -22,22 +22,22 @@ const serviceData = [
   {
     Icon: RxPencil2,
     title: "Design",
-    description: "Very creative approach to design, compliance with wishes.",
+    description: "I can create minimal & modern web design with lasted web technologies.",
   },
   {
     Icon: RxDesktop,
     title: "Development",
-    description: "Very creative approach to creation, compliance with wishes.",
+    description: "I worked with React, Bootstrap and Node.js to create dynamic & interactive web applications.",
   },
   {
     Icon: RxReader,
-    title: "Copywriting",
-    description: "Quite modest prices for first orders.",
+    title: "Security Expert",
+    description: "Monitor your website, prevent any unusual activities happing on website & create a system that can protect your website.",
   },
   {
     Icon: RxRocket,
     title: "SEO",
-    description: "Very creative approach to SEO, compliance with wishes.",
+    description: "I can research key-word & do on-page SEO on your website that can create healthy traffic to your website.",
   },
 ];
 
