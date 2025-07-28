@@ -42,7 +42,7 @@ const serviceData = [
   {
     Icon: RxRocket,
     title: "SEO",
-    description: "I can research key-word & do on-page SEO on your website that can create healthy traffic to your website.",
+    description: "Implementing strategies to improve website visibility in search engine results.",
   },
 ];
 
