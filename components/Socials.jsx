@@ -16,9 +16,9 @@ export const socialData = [
     Icon: RiYoutubeLine,
   },
   {
-    name: "Instagram",
-    link: "https://instagram.com",
-    Icon: RiInstagramLine,
+    name: "Whatsapp",
+    link: "https://wa.me/+37126729131",
+    Icon: RiWhatsappLine,
   },
   {
     name: "Facebook",
@@ -31,9 +31,9 @@ export const socialData = [
     Icon: RiDribbbleLine,
   },
   {
-    name: "Pinterest",
-    link: "https://pinterest.com",
-    Icon: RiPinterestLine,
+    name: "Behance",
+    link: "https://behance.com",
+    Icon: RiBehanceFill,
   },
   {
     name: "Github",
