@@ -17,27 +17,27 @@ const serviceData = [
   {
     Icon: RxCrop,
     title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Very creative approach to branding, respect for wishes.",
   },
   {
     Icon: RxPencil2,
     title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Very creative approach to design, compliance with wishes.",
   },
   {
     Icon: RxDesktop,
     title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Very creative approach to creation, compliance with wishes.",
   },
   {
     Icon: RxReader,
     title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Quite modest prices for first orders.",
   },
   {
     Icon: RxRocket,
     title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Very creative approach to SEO, compliance with wishes.",
   },
 ];
 
