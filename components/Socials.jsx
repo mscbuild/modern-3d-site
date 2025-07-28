@@ -2,11 +2,11 @@ import Link from "next/link";
 
 import {
   RiYoutubeLine,
-  RiInstagramLine,
+  RiWhatsappLine,
   RiFacebookLine,
   RiDribbbleLine,
   RiGithubLine,
-  RiPinterestLine,
+  RiBehanceFill,
 } from "react-icons/ri";
 
 export const socialData = [
