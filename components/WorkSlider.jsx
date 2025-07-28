@@ -15,22 +15,22 @@ const workSlides = {
         {
           title: "title",
           path: "/thumb1.jpg",
-          link: "http://example.com",
+          link: "https://mscbuild.github.io/work/eda.html",
         },
         {
           title: "title",
           path: "/thumb2.jpg",
-          link: "http://example.com",
+          link: "https://mscbuild.github.io/work/learn.html",
         },
         {
           title: "title",
           path: "/thumb3.jpg",
-          link: "http://example.com",
+          link: "https://dievamantinieki.lv",
         },
         {
           title: "title",
           path: "/thumb4.jpg",
-          link: "http://example.com",
+          link: "https://mscbuild.github.io/work/lux.html",
         },
       ],
     },
@@ -44,17 +44,17 @@ const workSlides = {
         {
           title: "title",
           path: "/thumb1.jpg",
-          link: "http://example.com",
+          link: "https://mscbuild.github.io/work/hope",
         },
         {
           title: "title",
           path: "/thumb2.jpg",
-          link: "http://example.com",
+          link: "https://mscbuild.github.io/work/bus.html",
         },
         {
           title: "title",
           path: "/thumb3.jpg",
-          link: "http://example.com",
+          link: "https://mscbuild.github.io/work/rest.html",
         },
       ],
     },
