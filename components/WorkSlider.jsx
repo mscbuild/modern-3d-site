@@ -39,12 +39,12 @@ const workSlides = {
         {
           title: "title",
           path: "/thumb4.jpg",
-          link: "http://example.com",
+          link: "https://mscbuild.github.io/work/dizain.html",
         },
         {
           title: "title",
           path: "/thumb1.jpg",
-          link: "https://mscbuild.github.io/work/hope",
+          link: "https://mscbuild.github.io/work/hope.html",
         },
         {
           title: "title",
