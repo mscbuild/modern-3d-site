@@ -25,9 +25,16 @@ const Contact = () => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
     })
-      .then(() => alert("Thank you. I will get back to you ASAP."))
+      .then(() => {
+        alert("Thank you. I will get back to you ASAP.");
+        setIsGDPRChecked(false); // Reset checkbox after successful submission
+      })
       .catch((error) => console.log(error))
       .finally(() => setIsLoading(false));
+  };
+
+  const toggleGDPR = () => {
+    setIsGDPRChecked(!isGDPRChecked);
   };
 
   return (
@@ -37,10 +44,9 @@ const Contact = () => {
         <div className="flex flex-col w-full max-w-[700px]">
           {/* text */}
           <motion.h2
-            variants={fadeIn("up", 0.2)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
             className="h2 text-center mb-12"
           >
             Let's <span className="text-accent">connect.</span>
@@ -48,15 +54,13 @@ const Contact = () => {
 
           {/* form */}
           <motion.form
-            variants={fadeIn("up", 0.4)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
             className="flex-1 flex flex-col gap-6 w-full mx-auto"
             onSubmit={handleSubmit}
             autoComplete="off"
             autoCapitalize="off"
-            // only needed for production (in netlify) to accept form input
             data-netlify="true"
           >
             {/* input group */}
@@ -65,7 +69,7 @@ const Contact = () => {
                 type="text"
                 name="name"
                 placeholder="Name"
-                className="input"
+                className="input flex-1 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent/50 placeholder:text-gray-300"
                 disabled={isLoading}
                 aria-disabled={isLoading}
                 required
@@ -75,7 +79,7 @@ const Contact = () => {
                 type="email"
                 name="email"
                 placeholder="E-mail"
-                className="input"
+                className="input flex-1 bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent/50 placeholder:text-gray-300"
                 disabled={isLoading}
                 aria-disabled={isLoading}
                 required
@@ -86,7 +90,7 @@ const Contact = () => {
               type="text"
               name="subject"
               placeholder="Subject"
-              className="input"
+              className="input bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent/50 placeholder:text-gray-300"
               disabled={isLoading}
               aria-disabled={isLoading}
               required
@@ -95,13 +99,14 @@ const Contact = () => {
             <textarea
               name="message"
               placeholder="Message..."
-              className="textarea"
+              className="textarea bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent/50 placeholder:text-gray-300 min-h-[120px]"
               disabled={isLoading}
               aria-disabled={isLoading}
               required
               aria-required
             />
-             {/* GDPR Checkbox */}
+            
+            {/* GDPR Checkbox */}
             <div className="flex items-start gap-3">
               <div className="mt-1">
                 <input
@@ -121,17 +126,17 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group"
+              className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group mx-auto disabled:opacity-50 disabled:cursor-not-allowed"
               disabled={isLoading}
               aria-disabled={isLoading}
             >
-              <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
-                Let's talk
+              <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500 flex items-center">
+                {isLoading ? 'Sending...' : "Let's talk"}
               </span>
 
               <BsArrowRight
                 className="-translate-y-[120%] opacity-0 group-hover:flex group-hover:-translate-y-0 group-hover:opacity-100 transition-all duration-300 absolute text-[22px]"
-                aria-hidden
+                aria-hidden="true"
               />
             </button>
           </motion.form>
