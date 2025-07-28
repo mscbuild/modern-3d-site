@@ -120,7 +120,7 @@ const Contact = () => {
                 />
               </div>
               <label htmlFor="gdpr" className="text-sm text-gray-300 leading-relaxed">
-                I agree to the processing of my personal data and the privacy policy.
+                *I agree to the processing of my personal data.
               </label>
             </div>
 
