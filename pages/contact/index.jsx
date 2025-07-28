@@ -1,14 +1,20 @@
 import { motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
-
-import { fadeIn } from "../../variants";
 import { useState } from "react";
 
 const Contact = () => {
   const [isLoading, setIsLoading] = useState(false);
+  const [isGDPRChecked, setIsGDPRChecked] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    
+    // Validate GDPR checkbox
+    if (!isGDPRChecked) {
+      alert("Please accept the GDPR terms to submit the form.");
+      return;
+    }
+
     setIsLoading(true);
 
     const myForm = event.target;
