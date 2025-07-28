@@ -60,8 +60,12 @@ export const aboutData = [
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
+        title: "UX/UI Designer - DM Company",
         stage: "2012 - 2023",
+      },
+      {
+        title: "Web administrator - Nano Company",
+        stage: "2015 - 2025",
       },
       {
         title: "Web Developer - ABC Agency",
@@ -77,16 +81,20 @@ export const aboutData = [
     title: "credentials",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
+        title: "Web Development - Linkedin, LA, CA",
         stage: "2011",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
+        title: "Data Analytics Professional Certificate - Google, Los Angeles, CA ",
         stage: "2009",
       },
       {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
+         title: "Google Play Academy Certificate - Google, Los Angeles, CA ",
+        stage: "2024",
+      },
+      {
+        title: "Google UX Design Professional Certificate - Google, Los Angeles, CA",
+        stage: "2024",
       },
     ],
   },
