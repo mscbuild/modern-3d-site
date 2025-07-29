@@ -5,16 +5,6 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          {/* Базовая конфигурация */}
-          <meta charSet="UTF-8" />
-          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-          {/* SEO */}
-          <meta name="description" content="Portfolio" />
-          <meta name="keywords" content="Portfolio" />
-          <meta name="author" content="Mscbuild" />
-
           {/* Open Graph / Facebook */}
           <meta property="og:title" content="Alex Johnson | Portfolio" />
           <meta property="og:description" content="Alex Johnson | Portfolio" />
