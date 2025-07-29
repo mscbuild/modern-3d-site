@@ -10,6 +10,9 @@ const nextConfig = {
           {
             key: 'Content-Security-Policy',
             value: `
+              upgrade-insecure-requests;
+              form-action: 'self';
+              font-src: https:
               default-src 'self';
               script-src 'self' 'unsafe-inline' 'unsafe-eval';
               style-src 'self' 'unsafe-inline';
@@ -46,7 +49,7 @@ const nextConfig = {
           },
           {
             key: 'Permissions-Policy',
-            value: 'camera=(), microphone=(), geolocation=()',
+            value: 'camera=(), microphone=(), geolocation=(), payment=(), interest-cohort=()',
           },
         ],
       },
