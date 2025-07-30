@@ -12,7 +12,7 @@ const nextConfig = {
             value: `
               upgrade-insecure-requests;
               form-action 'self';
-              font-src  https:
+              font-src  'https';
               default-src 'self';
               script-src 'self' 'unsafe-inline' 'unsafe-eval';
               style-src 'self' 'unsafe-inline';
