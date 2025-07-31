@@ -85,6 +85,7 @@ modern-portfolio/
 
  
 **Upgrading: Version 15 - Next.js**
+
 31/07/2025
 
  
