@@ -84,7 +84,7 @@ modern-portfolio/
 ![Modern UI/UX](/.github/images/img1.png "Modern UI/UX")
 
  
-**Upgrading: Version 15 - Next.js**
+- **Upgrading: Version 15 - Next.js**
 
 31/07/2025
 
