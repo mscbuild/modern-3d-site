@@ -1,4 +1,3 @@
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import { AnimatePresence, motion } from "framer-motion";
 import { useRouter } from "next/router";
 
