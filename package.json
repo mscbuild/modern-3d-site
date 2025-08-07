@@ -51,6 +51,7 @@
   },
   "dependencies": {
     "@next/font": "^13.4.4",
+    "@vercel/speed-insights": "^1.2.0",
     "framer-motion": "^10.12.16",
     "next": "^15.4.5",
     "react": "^19.1.1",
