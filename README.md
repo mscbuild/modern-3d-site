@@ -2,19 +2,19 @@
 
 # Modern Portfolio using Next.js and Framer Motion
 
-![Modern Portfolio using Next.js and Framer Motion](/.github/images/img_main.png "Modern Portfolio using Next.js and Framer Motion")
-
 ![](https://komarev.com/ghpvc/?username=mscbuild) 
- ![](https://img.shields.io/github/license/mscbuild/e-learning) 
- ![](https://img.shields.io/github/repo-size/mscbuild/analysis)
+ ![](https://img.shields.io/github/license/mscbuild/3d-site) 
+ ![](https://img.shields.io/github/repo-size/mscbuild/3d-site)
 ![](https://img.shields.io/badge/PRs-Welcome-green)
-![](https://img.shields.io/badge/code%20style-asp.net-green)
+![](https://img.shields.io/badge/code%20style-next-green)
 ![](https://img.shields.io/github/stars/mscbuild)
 ![](https://img.shields.io/badge/Topic-Github-lighred)
 ![](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fmscbuild)
 
- 
 
+![Modern Portfolio using Next.js and Framer Motion](/.github/images/img_main.png "Modern Portfolio using Next.js and Framer Motion")
+
+ 
 <!-- Table of Contents -->
 <details>
 
