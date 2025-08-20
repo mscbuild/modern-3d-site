@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-# Modern Portfolio using Next.js and Framer Motion
+# Modern website Portfolio using Next.js and Framer Motion
 
 ![](https://komarev.com/ghpvc/?username=mscbuild) 
  ![](https://img.shields.io/github/license/mscbuild/3d-site) 
