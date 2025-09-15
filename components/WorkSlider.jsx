@@ -15,22 +15,22 @@ const workSlides = {
         {
           title: "title",
           path: "/thumb1.jpg",
-          link: "https://mscbuild.github.io/work/eda.html",
+          link: "https://mscbuild.github.io/food-website/",
         },
         {
           title: "title",
           path: "/thumb2.jpg",
-          link: "https://mscbuild.github.io/work/learn.html",
+          link: "https://mscbuild.github.io/gaming-website/",
         },
         {
           title: "title",
           path: "/thumb3.jpg",
-          link: "https://dievamantinieki.lv",
+          link: "https://moutain-vue-js.vercel.app/",
         },
         {
           title: "title",
           path: "/thumb4.jpg",
-          link: "https://mscbuild.github.io/work/lux.html",
+          link: "https://e-shop-app.onrender.com/",
         },
       ],
     },
@@ -39,22 +39,22 @@ const workSlides = {
         {
           title: "title",
           path: "/thumb4.jpg",
-          link: "https://mscbuild.github.io/work/dizain.html",
+          link: "https://uomo-ecommerce-website.netlify.app/",
         },
         {
           title: "title",
           path: "/thumb1.jpg",
-          link: "https://mscbuild.github.io/work/hope.html",
+          link: "https://moonflix.vercel.app/",
         },
         {
           title: "title",
           path: "/thumb2.jpg",
-          link: "https://mscbuild.github.io/work/bus.html",
+          link: "https://codiux.netlify.app/",
         },
         {
           title: "title",
           path: "/thumb3.jpg",
-          link: "https://mscbuild.github.io/work/rest.html",
+          link: "https://mysite-roan-xi.vercel.app/",
         },
       ],
     },
