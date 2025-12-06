@@ -88,7 +88,7 @@ modern-portfolio/
  
 - **Upgrading: Version 15 - Next.js**
 
--  31/07/2025
+-  06/12/2025
 
 > [!NOTE]
 > Please make sure to read the relevant section before making your contribution. It will make it a lot easier for us maintainers and smooth out the experience for all involved. The community looks forward to your contributions.
