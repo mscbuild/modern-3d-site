@@ -96,7 +96,14 @@ npm install next@15.4.8   // for 15.4.x
 npm install next@15.5.7   // for 15.5.x
 npm install next@16.0.7   // for 16.0.x
 ```
+**For React Router**
 
+```bash
+npm install react@latest
+npm install react-dom@latest
+npm install react-server-dom-parcel@latest
+npm install react-server-dom-webpack@latest
+```
 -  06/12/2025
 
 > [!NOTE]
