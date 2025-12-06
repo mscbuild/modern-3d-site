@@ -88,6 +88,8 @@ modern-portfolio/
  
 - **Upgrading: Version 15 - Next.js**
 
+  `npm install next@15.5.7   // for 15.5.x`
+
 -  06/12/2025
 
 > [!NOTE]
