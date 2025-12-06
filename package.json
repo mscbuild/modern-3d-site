@@ -53,7 +53,7 @@
     "@next/font": "^13.4.4",
     "@vercel/speed-insights": "^1.2.0",
     "framer-motion": "^10.12.16",
-    "next": "^15.4.5",
+    "next": "^15.5.7",
     "react": "^19.1.1",
     "react-countup": "^6.4.2",
     "react-dom": "^19.1.1",
@@ -67,7 +67,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "eslint": "8.41.0",
-    "eslint-config-next": "^15.4.5",
+    "eslint-config-next": "^15.5.7",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2"
   }
